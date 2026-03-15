@@ -1,0 +1,63 @@
+Line Chart
+
+>plot(AirPassengers,type="l")
+Bar Chart
+
+>barplot(iris$Petal.Length) #Creating simple Bar Graph
+Box Plot
+
+>boxplot(iris$Petal.Length~iris$Species)
+data(iris)
+
+par(mfrow=c(2,2))
+
+boxplot(iris$Sepal.Length,col="red")
+
+boxplot(iris$Sepal.Length~iris$Species,col="red")
+
+boxplot(iris$Sepal.Length~iris$Species,col=heat.colors(3))
+
+boxplot(iris$Sepal.Length~iris$Species,col=topo.colors(3))
+Scatter Plot
+
+plot(x=iris$Petal.Length) #Simple Scatter Plot
+
+plot(x=iris$Petal.Length,y=iris$Species) #Multivariate Scatter Plot
+
+Pie chart
+
+>pie(table(iris$Species))
+
+
+
+
+7
+
+
+plot (AirPassengers, type="1")
+
+summary (AirPassengers)
+
+barplot (iris$Petal.Length)
+
+summary(iris$Petal.Length)
+
+boxplot (iris$Petal.Length-iris Species)
+
+data (iris)
+
+par(mfrow=c(2,2))
+
+boxplot (iris$Sepal.Length, col="red")
+
+boxplot (iris$Sepal.Length~iris$Species,col="red")
+
+boxplot (iris$Sepal.Length~iris$Species,col-heat.colors(3))
+
+boxplot (iris$Sepal.Length~iris$Species,col=topo.colors(3))
+
+plot(x=iris$Petal.Length)
+
+plot(x=iris$Petal.Length,y=iris$Species)
+
+pie (table (iris$Species))
